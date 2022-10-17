@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(255, 199, 94);
+    width: 250px;
+    font-family: 'Roboto Slab', serif;
+    transition: transform 0.3s ease-in;
+    height: 200vh;
+}
+
+
+.sidebar nav {
+    padding: 0px;
+    height: 200vh;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar1{
+    background-color: rgb(255, 199, 94);
+    width: 200px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.sidebar1 nav {
+    padding: 0px;
+    height: 100vh;
+}
+
+.sidebar1 nav li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+.sidebar1 nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.back-video{
+position: absolute;
+right: 0;
+bottom: 0;
+z-index:-1;
+}
+
+
+.main {
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    margin: 60px auto;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+}
+
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.devpic{
+    justify-content: space-between;
+}
+
+
+.hello {
+    font-size: xxx-large;
+}
+
+.name {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: blueviolet;
+}
+
+.about {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 3;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 69px auto;
+    padding: 0 42px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+
+#emailhelip {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form.check {
+    flex-direction: row;
+}
+
+#form.check input {
+    width: 2px;
+    margin: 3px 0;
+}
+
+.intro {
+    padding: 33px;
+}
+
+.intro h1{
+    padding: 7px;
+}
+
+.intro p {
+    font-family: 'Lora', serif;
+    font-size:small;
+}
+
+.intro p p1,p2,p3,p4{
+    font-family: 'Lora', serif;
+    font-size:small;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillcontainer h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+}
+
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill{
+    width: 256px;
+    height:10px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.intro h2{
+    padding: 7px;
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+}
+
+.hundred{
+    width: 265px;
+    background-color: brown;
+}
+.fifty{
+    width: 125px;
+    background-color: blue;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+
+.socialmediacontainer h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+}
+
+.socialmediacontainer socialmedia{
+    font-weight: 900;
+}
+
+.url{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left:105px;
+}
+.h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+
+.projectcontainer{
+    font-size: medium;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.project button{
+    padding: 4px;
+    border-radius: 22px;
+    color: cyan;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 3;
+    cursor: pointer;
+}
+
+.project button:hover{
+    background-color: cyan;
+    color: blue;
+}
+
+.feedcontainer{
+    margin: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.feedcontainer h1{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+.feedcontainer h2{
+    margin-top: 50px;
+    font-size: xx-large;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mb-3{
+    margin-top: 22px;
+}
+
+
+.card{
+    border-radius: 2px;
+    margin-left: 100px;
+    padding-top: 120px;
+
+}
+
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.card-body button {
+    padding: 9px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 3;
+    cursor: pointer;
+}
+
+.card-body button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.card-text{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.card2{
+    margin:-558px 400px;
+}
+
+
+    .card3 {
+        margin: -484px 430px;
+}
+
+
+
